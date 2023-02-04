@@ -7,16 +7,19 @@ import NewExpense from "./components/NewExpense/NewExpense";
 function App() {
   const initialExpenses = [
     {
+      id:"1",
       date: new Date(2022, 12, 20),
       title: "Car Insurance",
       amount: "$1500",
     },
     {
+      id:"2",
       date: new Date(2022, 12, 25),
       title: "Toilet Paper",
       amount: "$3.5",
     },
     {
+      id:"3",
       date: new Date(2022, 12, 30),
       title: "Myki top up",
       amount: "$50",

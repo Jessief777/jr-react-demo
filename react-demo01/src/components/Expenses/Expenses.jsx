@@ -44,6 +44,7 @@ const Expenses = (props) => {
           date={expense.date}
           title={expense.title}
           amount={expense.amount}
+          key={expenses.id}
         />
       ))}
     </div>

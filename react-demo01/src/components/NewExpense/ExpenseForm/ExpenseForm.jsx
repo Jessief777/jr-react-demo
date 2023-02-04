@@ -14,6 +14,7 @@ const ExpenseForm = (props) => {
       amount:`$${amount}`,
       date:new Date(date),
       // 保证数据类型一致才能传入App.js
+      id:Math.random()
     };
     // console.log(formData);
     props.addNewExpense(formData);
