@@ -39,7 +39,7 @@ function Notes() {
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("Notes"));
     console.log("data", data);
-    if (data.length > 0) {
+    if (data) {
       setNotes(data);
     }
   }, []);
